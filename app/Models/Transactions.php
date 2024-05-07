@@ -12,7 +12,7 @@ class Transactions extends Model
 
     public function transanctionType($value){
         $data = "";
-        if($value = 1){
+        if($value == 1){
             $data = "Deposit";
         }else{
             $data = "Withdrawal";
